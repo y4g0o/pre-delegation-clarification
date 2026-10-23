@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CDH Dashboard</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            bg:          '#0B1322',
+            surface:     '#0F1C35',
+            surface2:    '#152340',
+            text1:       '#E2E8F0',
+            text2:       '#8FA3BF',
+            text3:       '#4A6280',
+            primary:     '#6366F1',
+            'primary-2': '#818CF8',
+            success:     '#22C55E',
+            error:       '#EF4444',
+            warning:     '#F59E0B',
+          },
+          boxShadow: {
+            card: '0 1px 3px rgba(0,0,0,0.4), 0 1px 2px rgba(0,0,0,0.3)',
+          },
+        },
+      },
+    };
+  </script>
+  <style>
+    html, body, #root { height: 100%; margin: 0; }
+    * { box-sizing: border-box; }
+
+    .dot-grid {
+      background-image: radial-gradient(circle, #1E3A5F 1px, transparent 1px);
+      background-size: 32px 32px;
+    }
+    .screen-enter {
+      animation: screenEnter 0.22s ease-out both;
+    }
+    @keyframes screenEnter {
+      from { opacity: 0; transform: translateY(8px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .dot-pulse {
+      animation: dotPulse 1.4s ease-in-out infinite;
+    }
+    @keyframes dotPulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.35; }
+    }
+    /* Scrollbar */
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: #152340; border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: #4A6280; }
+  </style>
+
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body class="bg-bg">
+  <div id="root"></div>
+
+  <!-- Load order matters: data → primitives → components → screens → shell -->
+  <script type="text/babel" src="src/data.jsx"></script>
+  <script type="text/babel" src="src/icons.jsx"></script>
+  <script type="text/babel" src="src/export.jsx"></script>
+  <script type="text/babel" src="src/ui.jsx"></script>
+  <script type="text/babel" src="src/markdown.jsx"></script>
+  <script type="text/babel" src="src/likert.jsx"></script>
+  <script type="text/babel" src="src/clarification.jsx"></script>
+  <script type="text/babel" src="src/sidebar.jsx"></script>
+  <script type="text/babel" src="src/screen-overview.jsx"></script>
+  <script type="text/babel" src="src/screen-new-task.jsx"></script>
+  <script type="text/babel" src="src/screen-execution.jsx"></script>
+  <script type="text/babel" src="src/screen-agent-graph.jsx"></script>
+  <script type="text/babel" src="src/screen-compare.jsx"></script>
+  <script type="text/babel" src="src/screen-metrics.jsx"></script>
+  <script type="text/babel" src="src/screen-history.jsx"></script>
+  <script type="text/babel" src="src/screen-settings.jsx"></script>
+  <script type="text/babel" src="src/screen-evaluation.jsx"></script>
+  <script type="text/babel" src="src/app.jsx"></script>
+</body>
+</html>

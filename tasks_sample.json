@@ -1,0 +1,272 @@
+[
+  {
+    "id": "PESQ_B1",
+    "cat": "PESQ",
+    "amb": "BAIXA",
+    "task": "Qual é a capital da Austrália e qual é a sua população estimada?"
+  },
+  {
+    "id": "PESQ_B2",
+    "cat": "PESQ",
+    "amb": "BAIXA",
+    "task": "Em que ano foi fundado o IFCE e em quantos campi ele está presente?"
+  },
+  {
+    "id": "PESQ_B3",
+    "cat": "PESQ",
+    "amb": "BAIXA",
+    "task": "Quais são as três maiores economias do mundo em PIB nominal em 2024?"
+  },
+  {
+    "id": "PESQ_B4",
+    "cat": "PESQ",
+    "amb": "BAIXA",
+    "task": "Qual é a diferença entre machine learning supervisionado e não supervisionado?"
+  },
+  {
+    "id": "PESQ_B5",
+    "cat": "PESQ",
+    "amb": "BAIXA",
+    "task": "Quem foi Alan Turing e qual é sua principal contribuição para a computação?"
+  },
+  {
+    "id": "PESQ_M1",
+    "cat": "PESQ",
+    "amb": "MEDIA",
+    "task": "Quais são os principais avanços em modelos de linguagem de grande escala (LLMs) em 2024 e como eles impactam o desenvolvimento de aplicações com IA generativa?"
+  },
+  {
+    "id": "PESQ_M2",
+    "cat": "PESQ",
+    "amb": "MEDIA",
+    "task": "Como o Brasil está se posicionando na transição para energias renováveis? Cite dados recentes."
+  },
+  {
+    "id": "PESQ_M3",
+    "cat": "PESQ",
+    "amb": "MEDIA",
+    "task": "Quais são as melhores práticas de segurança para APIs REST e como elas se aplicam a sistemas modernos de back-end?"
+  },
+  {
+    "id": "PESQ_M4",
+    "cat": "PESQ",
+    "amb": "MEDIA",
+    "task": "Como funciona o sistema de cotas nas universidades federais brasileiras e quais são os debates atuais sobre o tema?"
+  },
+  {
+    "id": "PESQ_M5",
+    "cat": "PESQ",
+    "amb": "MEDIA",
+    "task": "Quais tecnologias de armazenamento de energia são mais promissoras para a transição energética global?"
+  },
+  {
+    "id": "PESQ_A1",
+    "cat": "PESQ",
+    "amb": "ALTA",
+    "task": "Me ajude com meu projeto de pesquisa sobre IA."
+  },
+  {
+    "id": "PESQ_A2",
+    "cat": "PESQ",
+    "amb": "ALTA",
+    "task": "Pesquise sobre isso para mim."
+  },
+  {
+    "id": "PESQ_A3",
+    "cat": "PESQ",
+    "amb": "ALTA",
+    "task": "Preciso saber mais sobre tecnologia."
+  },
+  {
+    "id": "PESQ_A4",
+    "cat": "PESQ",
+    "amb": "ALTA",
+    "task": "O que está acontecendo no mundo da ciência?"
+  },
+  {
+    "id": "PESQ_A5",
+    "cat": "PESQ",
+    "amb": "ALTA",
+    "task": "Me explique sobre esse assunto importante."
+  },
+  {
+    "id": "CALC_B1",
+    "cat": "CALC",
+    "amb": "BAIXA",
+    "task": "Quanto é 2 elevado à 32ª potência?"
+  },
+  {
+    "id": "CALC_B2",
+    "cat": "CALC",
+    "amb": "BAIXA",
+    "task": "Calcule o resultado de: (123 * 456) + (789 / 3) - 42"
+  },
+  {
+    "id": "CALC_B3",
+    "cat": "CALC",
+    "amb": "BAIXA",
+    "task": "Qual é o resultado de 15 fatorial (15!)?"
+  },
+  {
+    "id": "CALC_B4",
+    "cat": "CALC",
+    "amb": "BAIXA",
+    "task": "Calcule a raiz quadrada de 625 e depois multiplique o resultado por 13."
+  },
+  {
+    "id": "CALC_B5",
+    "cat": "CALC",
+    "amb": "BAIXA",
+    "task": "Quanto é (2**10) + (3**5) - (4**3)?"
+  },
+  {
+    "id": "CALC_M1",
+    "cat": "CALC",
+    "amb": "MEDIA",
+    "task": "Tenho R$5.000 e vou investir com juros compostos de 0.8% ao mês por 24 meses. Quanto terei no final?"
+  },
+  {
+    "id": "CALC_M2",
+    "cat": "CALC",
+    "amb": "MEDIA",
+    "task": "Qual a área de um terreno retangular de 15.7m por 23.4m e quanto custaria cimentar a R$120 por m²?"
+  },
+  {
+    "id": "CALC_M3",
+    "cat": "CALC",
+    "amb": "MEDIA",
+    "task": "Se um produto custa R$350 com desconto de 15%, qual o preço final? E se tiver mais 10% de desconto sobre esse valor?"
+  },
+  {
+    "id": "CALC_M4",
+    "cat": "CALC",
+    "amb": "MEDIA",
+    "task": "Uma empresa faturou R$1.200.000 com margem de lucro de 12%. Qual foi o lucro líquido em reais?"
+  },
+  {
+    "id": "CALC_M5",
+    "cat": "CALC",
+    "amb": "MEDIA",
+    "task": "Calcule o IMC de uma pessoa com 85kg e 1.72m de altura. O resultado indica sobrepeso?"
+  },
+  {
+    "id": "CALC_A1",
+    "cat": "CALC",
+    "amb": "ALTA",
+    "task": "Preciso fazer alguns cálculos financeiros para o meu negócio."
+  },
+  {
+    "id": "CALC_A2",
+    "cat": "CALC",
+    "amb": "ALTA",
+    "task": "Me ajude com matemática."
+  },
+  {
+    "id": "CALC_A3",
+    "cat": "CALC",
+    "amb": "ALTA",
+    "task": "Qual é o resultado?"
+  },
+  {
+    "id": "CALC_A4",
+    "cat": "CALC",
+    "amb": "ALTA",
+    "task": "Quero saber quanto vai custar."
+  },
+  {
+    "id": "CALC_A5",
+    "cat": "CALC",
+    "amb": "ALTA",
+    "task": "Faz as contas para mim."
+  },
+  {
+    "id": "ESC_B1",
+    "cat": "ESC",
+    "amb": "BAIXA",
+    "task": "Escreva um email formal de agradecimento ao professor orientador do meu TCC, mencionando dedicação e suporte ao longo do projeto."
+  },
+  {
+    "id": "ESC_B2",
+    "cat": "ESC",
+    "amb": "BAIXA",
+    "task": "Explique o conceito de recursão em programação, incluindo um exemplo funcional em Python com fatorial."
+  },
+  {
+    "id": "ESC_B3",
+    "cat": "ESC",
+    "amb": "BAIXA",
+    "task": "Escreva uma carta de apresentação para uma vaga de desenvolvedor backend sênior com 5 anos de experiência em Python e Django."
+  },
+  {
+    "id": "ESC_B4",
+    "cat": "ESC",
+    "amb": "BAIXA",
+    "task": "Crie um roteiro de apresentação de 5 minutos sobre os benefícios do trabalho remoto para uma equipe de tecnologia."
+  },
+  {
+    "id": "ESC_B5",
+    "cat": "ESC",
+    "amb": "BAIXA",
+    "task": "Escreva um parágrafo introdutório para um artigo científico sobre redes neurais convolucionais aplicadas à detecção de objetos em tempo real."
+  },
+  {
+    "id": "ESC_M1",
+    "cat": "ESC",
+    "amb": "MEDIA",
+    "task": "Escreva um resumo acadêmico de 150 palavras sobre sistemas multiagente com LLMs para submissão em uma conferência de inteligência artificial."
+  },
+  {
+    "id": "ESC_M2",
+    "cat": "ESC",
+    "amb": "MEDIA",
+    "task": "Crie um plano de estudos de 30 dias para aprender conceitos de IA aplicada, destinado a alguém com base em Python mas sem experiência em ML."
+  },
+  {
+    "id": "ESC_M3",
+    "cat": "ESC",
+    "amb": "MEDIA",
+    "task": "Escreva um artigo de blog técnico sobre o futuro da programação assistida por IA, direcionado para desenvolvedores juniores que estão começando na área."
+  },
+  {
+    "id": "ESC_M4",
+    "cat": "ESC",
+    "amb": "MEDIA",
+    "task": "Crie uma proposta de projeto para implementar um sistema de recomendação personalizado em um e-commerce de médio porte."
+  },
+  {
+    "id": "ESC_M5",
+    "cat": "ESC",
+    "amb": "MEDIA",
+    "task": "Escreva um documento de requisitos funcionais para um aplicativo mobile de gestão de tarefas com sincronização em tempo real entre múltiplos dispositivos."
+  },
+  {
+    "id": "ESC_A1",
+    "cat": "ESC",
+    "amb": "ALTA",
+    "task": "Preciso de um texto importante para apresentar meu trabalho."
+  },
+  {
+    "id": "ESC_A2",
+    "cat": "ESC",
+    "amb": "ALTA",
+    "task": "Escreve alguma coisa para mim."
+  },
+  {
+    "id": "ESC_A3",
+    "cat": "ESC",
+    "amb": "ALTA",
+    "task": "Preciso de ajuda com o meu texto."
+  },
+  {
+    "id": "ESC_A4",
+    "cat": "ESC",
+    "amb": "ALTA",
+    "task": "Cria um conteúdo sobre isso."
+  },
+  {
+    "id": "ESC_A5",
+    "cat": "ESC",
+    "amb": "ALTA",
+    "task": "Me faz um documento."
+  }
+]

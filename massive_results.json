@@ -1,0 +1,782 @@
+[
+    {
+        "id": 0,
+        "categoria": "COD",
+        "prompt": "Crie um algoritmo de ordenação QuickSort em Python.",
+        "modo": "baseline",
+        "tokens": 33,
+        "ciclos_react": 0,
+        "latencia": 42.94,
+        "sucesso": true
+    },
+    {
+        "id": 0,
+        "categoria": "COD",
+        "prompt": "Crie um algoritmo de ordenação QuickSort em Python.",
+        "modo": "cdh",
+        "tokens": 1253,
+        "ciclos_react": 0,
+        "latencia": 42.28,
+        "sucesso": true
+    },
+    {
+        "id": 1,
+        "categoria": "COD",
+        "prompt": "Explique a diferença entre herança e composição com exemplos.",
+        "modo": "baseline",
+        "tokens": 39,
+        "ciclos_react": 0,
+        "latencia": 2.16,
+        "sucesso": true
+    },
+    {
+        "id": 1,
+        "categoria": "COD",
+        "prompt": "Explique a diferença entre herança e composição com exemplos.",
+        "modo": "cdh",
+        "tokens": 52,
+        "ciclos_react": 0,
+        "latencia": 2.62,
+        "sucesso": true
+    },
+    {
+        "id": 2,
+        "categoria": "COD",
+        "prompt": "Crie um endpoint FastAPI para upload de arquivos.",
+        "modo": "baseline",
+        "tokens": 33,
+        "ciclos_react": 0,
+        "latencia": 3.39,
+        "sucesso": true
+    },
+    {
+        "id": 2,
+        "categoria": "COD",
+        "prompt": "Crie um endpoint FastAPI para upload de arquivos.",
+        "modo": "cdh",
+        "tokens": 32,
+        "ciclos_react": 0,
+        "latencia": 4.7,
+        "sucesso": true
+    },
+    {
+        "id": 3,
+        "categoria": "COD",
+        "prompt": "Refatore um loop aninhado para usar list comprehension.",
+        "modo": "baseline",
+        "tokens": 35,
+        "ciclos_react": 0,
+        "latencia": 2.32,
+        "sucesso": true
+    },
+    {
+        "id": 3,
+        "categoria": "COD",
+        "prompt": "Refatore um loop aninhado para usar list comprehension.",
+        "modo": "cdh",
+        "tokens": 35,
+        "ciclos_react": 0,
+        "latencia": 2.26,
+        "sucesso": true
+    },
+    {
+        "id": 4,
+        "categoria": "COD",
+        "prompt": "Escreva um teste unitário usando pytest para uma função de soma.",
+        "modo": "baseline",
+        "tokens": 41,
+        "ciclos_react": 0,
+        "latencia": 2.64,
+        "sucesso": true
+    },
+    {
+        "id": 4,
+        "categoria": "COD",
+        "prompt": "Escreva um teste unitário usando pytest para uma função de soma.",
+        "modo": "cdh",
+        "tokens": 40,
+        "ciclos_react": 0,
+        "latencia": 2.66,
+        "sucesso": true
+    },
+    {
+        "id": 5,
+        "categoria": "COD",
+        "prompt": "Crie um modelo Pydantic para um usuário de sistema.",
+        "modo": "baseline",
+        "tokens": 33,
+        "ciclos_react": 0,
+        "latencia": 4.64,
+        "sucesso": true
+    },
+    {
+        "id": 5,
+        "categoria": "COD",
+        "prompt": "Crie um modelo Pydantic para um usuário de sistema.",
+        "modo": "cdh",
+        "tokens": 72,
+        "ciclos_react": 0,
+        "latencia": 2.8,
+        "sucesso": true
+    },
+    {
+        "id": 6,
+        "categoria": "COD",
+        "prompt": "Explique o conceito de GIL no Python.",
+        "modo": "baseline",
+        "tokens": 99,
+        "ciclos_react": 0,
+        "latencia": 34.35,
+        "sucesso": true
+    },
+    {
+        "id": 7,
+        "categoria": "COD",
+        "prompt": "Crie um script para ler um CSV e calcular a média de uma coluna.",
+        "modo": "baseline",
+        "tokens": 524,
+        "ciclos_react": 0,
+        "latencia": 19.06,
+        "sucesso": true
+    },
+    {
+        "id": 8,
+        "categoria": "COD",
+        "prompt": "Implemente o padrão Singleton em Python.",
+        "modo": "baseline",
+        "tokens": 29,
+        "ciclos_react": 0,
+        "latencia": 1.83,
+        "sucesso": true
+    },
+    {
+        "id": 8,
+        "categoria": "COD",
+        "prompt": "Implemente o padrão Singleton em Python.",
+        "modo": "cdh",
+        "tokens": 29,
+        "ciclos_react": 0,
+        "latencia": 2.1,
+        "sucesso": true
+    },
+    {
+        "id": 9,
+        "categoria": "COD",
+        "prompt": "Crie uma função que valide um CPF.",
+        "modo": "baseline",
+        "tokens": 297,
+        "ciclos_react": 0,
+        "latencia": 20.59,
+        "sucesso": true
+    },
+    {
+        "id": 9,
+        "categoria": "COD",
+        "prompt": "Crie uma função que valide um CPF.",
+        "modo": "cdh",
+        "tokens": 741,
+        "ciclos_react": 0,
+        "latencia": 15.86,
+        "sucesso": true
+    },
+    {
+        "id": 10,
+        "categoria": "COD",
+        "prompt": "Explique o uso de args e kwargs.",
+        "modo": "baseline",
+        "tokens": 25,
+        "ciclos_react": 0,
+        "latencia": 7.91,
+        "sucesso": true
+    },
+    {
+        "id": 10,
+        "categoria": "COD",
+        "prompt": "Explique o uso de args e kwargs.",
+        "modo": "cdh",
+        "tokens": 277,
+        "ciclos_react": 0,
+        "latencia": 9.36,
+        "sucesso": true
+    },
+    {
+        "id": 11,
+        "categoria": "COD",
+        "prompt": "Crie uma conexão simples com banco de dados SQLite.",
+        "modo": "baseline",
+        "tokens": 324,
+        "ciclos_react": 0,
+        "latencia": 13.33,
+        "sucesso": true
+    },
+    {
+        "id": 11,
+        "categoria": "COD",
+        "prompt": "Crie uma conexão simples com banco de dados SQLite.",
+        "modo": "cdh",
+        "tokens": 320,
+        "ciclos_react": 0,
+        "latencia": 13.65,
+        "sucesso": true
+    },
+    {
+        "id": 12,
+        "categoria": "COD",
+        "prompt": "Escreva uma expressão regular para validar e-mails.",
+        "modo": "cdh",
+        "tokens": 766,
+        "ciclos_react": 0,
+        "latencia": 20.98,
+        "sucesso": true
+    },
+    {
+        "id": 13,
+        "categoria": "COD",
+        "prompt": "Crie um decorador que meça o tempo de execução de uma função.",
+        "modo": "baseline",
+        "tokens": 1353,
+        "ciclos_react": 0,
+        "latencia": 50.89,
+        "sucesso": true
+    },
+    {
+        "id": 13,
+        "categoria": "COD",
+        "prompt": "Crie um decorador que meça o tempo de execução de uma função.",
+        "modo": "cdh",
+        "tokens": 1099,
+        "ciclos_react": 0,
+        "latencia": 43.03,
+        "sucesso": true
+    },
+    {
+        "id": 14,
+        "categoria": "COD",
+        "prompt": "Converta um dicionário Python em um objeto JSON.",
+        "modo": "baseline",
+        "tokens": 33,
+        "ciclos_react": 0,
+        "latencia": 3.46,
+        "sucesso": true
+    },
+    {
+        "id": 14,
+        "categoria": "COD",
+        "prompt": "Converta um dicionário Python em um objeto JSON.",
+        "modo": "cdh",
+        "tokens": 83,
+        "ciclos_react": 0,
+        "latencia": 3.46,
+        "sucesso": true
+    },
+    {
+        "id": 15,
+        "categoria": "ESC",
+        "prompt": "Escreva um post para LinkedIn sobre ética em IA.",
+        "modo": "baseline",
+        "tokens": 33,
+        "ciclos_react": 0,
+        "latencia": 2.12,
+        "sucesso": true
+    },
+    {
+        "id": 15,
+        "categoria": "ESC",
+        "prompt": "Escreva um post para LinkedIn sobre ética em IA.",
+        "modo": "cdh",
+        "tokens": 33,
+        "ciclos_react": 0,
+        "latencia": 2.07,
+        "sucesso": true
+    },
+    {
+        "id": 16,
+        "categoria": "ESC",
+        "prompt": "Crie um slogan para uma marca de café sustentável.",
+        "modo": "baseline",
+        "tokens": 33,
+        "ciclos_react": 0,
+        "latencia": 3.02,
+        "sucesso": true
+    },
+    {
+        "id": 16,
+        "categoria": "ESC",
+        "prompt": "Crie um slogan para uma marca de café sustentável.",
+        "modo": "cdh",
+        "tokens": 70,
+        "ciclos_react": 0,
+        "latencia": 3.02,
+        "sucesso": true
+    },
+    {
+        "id": 17,
+        "categoria": "ESC",
+        "prompt": "Resuma a importância da desambiguação em agentes.",
+        "modo": "baseline",
+        "tokens": 33,
+        "ciclos_react": 0,
+        "latencia": 4.12,
+        "sucesso": true
+    },
+    {
+        "id": 17,
+        "categoria": "ESC",
+        "prompt": "Resuma a importância da desambiguação em agentes.",
+        "modo": "cdh",
+        "tokens": 37,
+        "ciclos_react": 0,
+        "latencia": 2.6,
+        "sucesso": true
+    },
+    {
+        "id": 18,
+        "categoria": "ESC",
+        "prompt": "Crie um README para um projeto open-source de automação.",
+        "modo": "cdh",
+        "tokens": 37,
+        "ciclos_react": 0,
+        "latencia": 2.03,
+        "sucesso": true
+    },
+    {
+        "id": 19,
+        "categoria": "ESC",
+        "prompt": "Escreva uma carta de motivação para uma vaga de dev.",
+        "modo": "baseline",
+        "tokens": 35,
+        "ciclos_react": 0,
+        "latencia": 2.81,
+        "sucesso": true
+    },
+    {
+        "id": 19,
+        "categoria": "ESC",
+        "prompt": "Escreva uma carta de motivação para uma vaga de dev.",
+        "modo": "cdh",
+        "tokens": 35,
+        "ciclos_react": 0,
+        "latencia": 2.72,
+        "sucesso": true
+    },
+    {
+        "id": 20,
+        "categoria": "ESC",
+        "prompt": "Crie um guia de 5 passos para iniciantes em Python.",
+        "modo": "baseline",
+        "tokens": 138,
+        "ciclos_react": 0,
+        "latencia": 40.4,
+        "sucesso": true
+    },
+    {
+        "id": 20,
+        "categoria": "ESC",
+        "prompt": "Crie um guia de 5 passos para iniciantes em Python.",
+        "modo": "cdh",
+        "tokens": 707,
+        "ciclos_react": 0,
+        "latencia": 26.55,
+        "sucesso": true
+    },
+    {
+        "id": 21,
+        "categoria": "ESC",
+        "prompt": "Escreva um poema sobre o código-fonte.",
+        "modo": "baseline",
+        "tokens": 45,
+        "ciclos_react": 0,
+        "latencia": 8.91,
+        "sucesso": true
+    },
+    {
+        "id": 21,
+        "categoria": "ESC",
+        "prompt": "Escreva um poema sobre o código-fonte.",
+        "modo": "cdh",
+        "tokens": 1176,
+        "ciclos_react": 0,
+        "latencia": 43.26,
+        "sucesso": true
+    },
+    {
+        "id": 22,
+        "categoria": "ESC",
+        "prompt": "Crie um roteiro de vídeo de 1 minuto sobre produtividade.",
+        "modo": "cdh",
+        "tokens": 830,
+        "ciclos_react": 0,
+        "latencia": 23.69,
+        "sucesso": true
+    },
+    {
+        "id": 23,
+        "categoria": "ESC",
+        "prompt": "Escreva um parágrafo persuasivo para venda de um curso de IA.",
+        "modo": "baseline",
+        "tokens": 39,
+        "ciclos_react": 0,
+        "latencia": 4.97,
+        "sucesso": true
+    },
+    {
+        "id": 23,
+        "categoria": "ESC",
+        "prompt": "Escreva um parágrafo persuasivo para venda de um curso de IA.",
+        "modo": "cdh",
+        "tokens": 39,
+        "ciclos_react": 0,
+        "latencia": 4.81,
+        "sucesso": true
+    },
+    {
+        "id": 24,
+        "categoria": "ESC",
+        "prompt": "Crie uma política de privacidade simplificada.",
+        "modo": "cdh",
+        "tokens": 812,
+        "ciclos_react": 0,
+        "latencia": 17.43,
+        "sucesso": true
+    },
+    {
+        "id": 25,
+        "categoria": "ESC",
+        "prompt": "Escreva um e-mail de agradecimento após uma entrevista.",
+        "modo": "baseline",
+        "tokens": 35,
+        "ciclos_react": 0,
+        "latencia": 1.96,
+        "sucesso": true
+    },
+    {
+        "id": 25,
+        "categoria": "ESC",
+        "prompt": "Escreva um e-mail de agradecimento após uma entrevista.",
+        "modo": "cdh",
+        "tokens": 35,
+        "ciclos_react": 0,
+        "latencia": 1.94,
+        "sucesso": true
+    },
+    {
+        "id": 26,
+        "categoria": "ESC",
+        "prompt": "Crie um título chamativo para um artigo de tecnologia.",
+        "modo": "baseline",
+        "tokens": 35,
+        "ciclos_react": 0,
+        "latencia": 3.96,
+        "sucesso": true
+    },
+    {
+        "id": 26,
+        "categoria": "ESC",
+        "prompt": "Crie um título chamativo para um artigo de tecnologia.",
+        "modo": "cdh",
+        "tokens": 89,
+        "ciclos_react": 0,
+        "latencia": 3.81,
+        "sucesso": true
+    },
+    {
+        "id": 27,
+        "categoria": "ESC",
+        "prompt": "Escreva uma sinopse de um livro de ficção científica sobre robôs.",
+        "modo": "baseline",
+        "tokens": 41,
+        "ciclos_react": 0,
+        "latencia": 2.0,
+        "sucesso": true
+    },
+    {
+        "id": 27,
+        "categoria": "ESC",
+        "prompt": "Escreva uma sinopse de um livro de ficção científica sobre robôs.",
+        "modo": "cdh",
+        "tokens": 41,
+        "ciclos_react": 0,
+        "latencia": 1.99,
+        "sucesso": true
+    },
+    {
+        "id": 28,
+        "categoria": "ESC",
+        "prompt": "Crie uma descrição de produto para um teclado mecânico.",
+        "modo": "baseline",
+        "tokens": 35,
+        "ciclos_react": 0,
+        "latencia": 2.29,
+        "sucesso": true
+    },
+    {
+        "id": 28,
+        "categoria": "ESC",
+        "prompt": "Crie uma descrição de produto para um teclado mecânico.",
+        "modo": "cdh",
+        "tokens": 53,
+        "ciclos_react": 0,
+        "latencia": 2.3,
+        "sucesso": true
+    },
+    {
+        "id": 29,
+        "categoria": "ESC",
+        "prompt": "Escreva uma FAQ com 3 perguntas sobre privacidade de dados.",
+        "modo": "baseline",
+        "tokens": 37,
+        "ciclos_react": 0,
+        "latencia": 2.77,
+        "sucesso": true
+    },
+    {
+        "id": 29,
+        "categoria": "ESC",
+        "prompt": "Escreva uma FAQ com 3 perguntas sobre privacidade de dados.",
+        "modo": "cdh",
+        "tokens": 37,
+        "ciclos_react": 0,
+        "latencia": 2.05,
+        "sucesso": true
+    },
+    {
+        "id": 30,
+        "categoria": "GER",
+        "prompt": "Qual o impacto do 5G na indústria 4.0?",
+        "modo": "cdh",
+        "tokens": 169,
+        "ciclos_react": 0,
+        "latencia": 12.91,
+        "sucesso": true
+    },
+    {
+        "id": 32,
+        "categoria": "GER",
+        "prompt": "Analise as vantagens do trabalho remoto para empresas de tech.",
+        "modo": "baseline",
+        "tokens": 1560,
+        "ciclos_react": 0,
+        "latencia": 49.07,
+        "sucesso": true
+    },
+    {
+        "id": 32,
+        "categoria": "GER",
+        "prompt": "Analise as vantagens do trabalho remoto para empresas de tech.",
+        "modo": "cdh",
+        "tokens": 443,
+        "ciclos_react": 0,
+        "latencia": 17.63,
+        "sucesso": true
+    },
+    {
+        "id": 33,
+        "categoria": "GER",
+        "prompt": "O que é computação quântica e como ela afeta a criptografia?",
+        "modo": "cdh",
+        "tokens": 421,
+        "ciclos_react": 0,
+        "latencia": 10.47,
+        "sucesso": true
+    },
+    {
+        "id": 34,
+        "categoria": "GER",
+        "prompt": "Explique o conceito de economia circular.",
+        "modo": "baseline",
+        "tokens": 67,
+        "ciclos_react": 0,
+        "latencia": 16.34,
+        "sucesso": true
+    },
+    {
+        "id": 34,
+        "categoria": "GER",
+        "prompt": "Explique o conceito de economia circular.",
+        "modo": "cdh",
+        "tokens": 85,
+        "ciclos_react": 0,
+        "latencia": 8.78,
+        "sucesso": true
+    },
+    {
+        "id": 36,
+        "categoria": "GER",
+        "prompt": "Como funciona o algoritmo de busca do Google?",
+        "modo": "baseline",
+        "tokens": 315,
+        "ciclos_react": 0,
+        "latencia": 10.32,
+        "sucesso": true
+    },
+    {
+        "id": 36,
+        "categoria": "GER",
+        "prompt": "Como funciona o algoritmo de busca do Google?",
+        "modo": "cdh",
+        "tokens": 410,
+        "ciclos_react": 0,
+        "latencia": 9.54,
+        "sucesso": true
+    },
+    {
+        "id": 37,
+        "categoria": "GER",
+        "prompt": "Quais os benefícios da arquitetura de microsserviços?",
+        "modo": "baseline",
+        "tokens": 674,
+        "ciclos_react": 0,
+        "latencia": 16.5,
+        "sucesso": true
+    },
+    {
+        "id": 38,
+        "categoria": "GER",
+        "prompt": "O que é DevOps e qual sua importância?",
+        "modo": "baseline",
+        "tokens": 949,
+        "ciclos_react": 0,
+        "latencia": 23.72,
+        "sucesso": true
+    },
+    {
+        "id": 38,
+        "categoria": "GER",
+        "prompt": "O que é DevOps e qual sua importância?",
+        "modo": "cdh",
+        "tokens": 362,
+        "ciclos_react": 0,
+        "latencia": 10.18,
+        "sucesso": true
+    },
+    {
+        "id": 39,
+        "categoria": "GER",
+        "prompt": "Analise o mercado de carros elétricos no Brasil.",
+        "modo": "baseline",
+        "tokens": 325,
+        "ciclos_react": 0,
+        "latencia": 10.21,
+        "sucesso": true
+    },
+    {
+        "id": 41,
+        "categoria": "GER",
+        "prompt": "O que é Big Data e como ele gera valor?",
+        "modo": "baseline",
+        "tokens": 334,
+        "ciclos_react": 0,
+        "latencia": 10.22,
+        "sucesso": true
+    },
+    {
+        "id": 42,
+        "categoria": "GER",
+        "prompt": "Explique o funcionamento básico de um transformador (IA).",
+        "modo": "baseline",
+        "tokens": 511,
+        "ciclos_react": 0,
+        "latencia": 17.33,
+        "sucesso": true
+    },
+    {
+        "id": 42,
+        "categoria": "GER",
+        "prompt": "Explique o funcionamento básico de um transformador (IA).",
+        "modo": "cdh",
+        "tokens": 2025,
+        "ciclos_react": 0,
+        "latencia": 41.0,
+        "sucesso": true
+    },
+    {
+        "id": 43,
+        "categoria": "GER",
+        "prompt": "Quais os desafios da segurança cibernética em 2026?",
+        "modo": "cdh",
+        "tokens": 2616,
+        "ciclos_react": 0,
+        "latencia": 50.61,
+        "sucesso": true
+    },
+    {
+        "id": 44,
+        "categoria": "GER",
+        "prompt": "Analise o impacto das redes sociais na saúde mental.",
+        "modo": "cdh",
+        "tokens": 1435,
+        "ciclos_react": 0,
+        "latencia": 31.84,
+        "sucesso": true
+    },
+    {
+        "id": 45,
+        "categoria": "GER",
+        "prompt": "Como a automação afeta o mercado de trabalho?",
+        "modo": "baseline",
+        "tokens": 316,
+        "ciclos_react": 0,
+        "latencia": 10.44,
+        "sucesso": true
+    },
+    {
+        "id": 45,
+        "categoria": "GER",
+        "prompt": "Como a automação afeta o mercado de trabalho?",
+        "modo": "cdh",
+        "tokens": 1070,
+        "ciclos_react": 0,
+        "latencia": 21.8,
+        "sucesso": true
+    },
+    {
+        "id": 46,
+        "categoria": "GER",
+        "prompt": "O que é computação de borda (edge computing)?",
+        "modo": "baseline",
+        "tokens": 339,
+        "ciclos_react": 0,
+        "latencia": 9.39,
+        "sucesso": true
+    },
+    {
+        "id": 47,
+        "categoria": "GER",
+        "prompt": "Explique a diferença entre IA forte e IA fraca.",
+        "modo": "baseline",
+        "tokens": 31,
+        "ciclos_react": 0,
+        "latencia": 1.98,
+        "sucesso": true
+    },
+    {
+        "id": 47,
+        "categoria": "GER",
+        "prompt": "Explique a diferença entre IA forte e IA fraca.",
+        "modo": "cdh",
+        "tokens": 36,
+        "ciclos_react": 0,
+        "latencia": 2.24,
+        "sucesso": true
+    },
+    {
+        "id": 48,
+        "categoria": "GER",
+        "prompt": "Quais as vantagens de usar containers (Docker)?",
+        "modo": "baseline",
+        "tokens": 622,
+        "ciclos_react": 0,
+        "latencia": 14.84,
+        "sucesso": true
+    },
+    {
+        "id": 49,
+        "categoria": "GER",
+        "prompt": "Como o clima afeta a produção de energia renovável?",
+        "modo": "cdh",
+        "tokens": 903,
+        "ciclos_react": 0,
+        "latencia": 26.21,
+        "sucesso": true
+    }
+]
